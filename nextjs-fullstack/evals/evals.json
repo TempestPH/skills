@@ -1,0 +1,23 @@
+{
+  "skill_name": "nextjs-fullstack",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Preciso criar uma página de listagem de produtos no meu projeto Next.js. Os produtos vêm do banco de dados via Prisma. A página deve mostrar nome, preço e imagem de cada produto. Deve ter um botão para deletar cada produto. Apenas usuários autenticados podem acessar essa página.",
+      "expected_output": "Deve gerar: (1) um service em src/services/product.service.ts com getProducts() e deleteProduct(), (2) uma página Server Component em app/(dashboard)/products/page.tsx que busca dados e usa HydrationBoundary, (3) um componente Client Component ProductList.tsx com useQuery, (4) uma Server Action deleteProductAction com verificação de auth e revalidatePath, (5) um schema Zod se necessário. Deve apresentar plano antes do código.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Quero adicionar um formulário de cadastro de usuário no projeto. O formulário deve ter campos de nome, email e senha. Precisa validar os dados antes de salvar no banco. Após o cadastro, redirecionar para a página de dashboard.",
+      "expected_output": "Deve gerar: (1) schema Zod em src/validations/user.validation.ts, (2) Server Action createUserAction com validação Zod e try/catch, (3) componente Client Component do formulário usando useMutation do TanStack Query, (4) serviço createUser em user.service.ts. Deve apresentar plano antes do código. Não deve usar 'any' em TypeScript.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Me ajuda a estruturar a parte de autenticação do projeto do zero. Preciso de login com email e senha. Rotas do dashboard precisam ser protegidas. Usuários não autenticados devem ser redirecionados para /login.",
+      "expected_output": "Deve gerar: (1) configuração do NextAuth em src/lib/auth.ts com PrismaAdapter e Credentials provider, (2) Route Handler em app/api/auth/[...nextauth]/route.ts, (3) middleware.ts na raiz para proteção de rotas, (4) página de login em app/(auth)/login/page.tsx com formulário Client Component. Deve apresentar plano estruturado antes de qualquer código.",
+      "files": []
+    }
+  ]
+}
