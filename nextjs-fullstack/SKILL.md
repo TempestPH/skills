@@ -270,6 +270,8 @@ export function useCreateUser() {
 
 ## Seção 3 — Camada de Dados (DAL) e Prisma
 
+> **Complemento:** para decisões de modelagem de banco de dados (schema Prisma, migrations, índices, audit logs, soft delete, performance de queries), consulte a skill **prisma-database** que define os padrões de schema, convenções de nomenclatura no PostgreSQL, e o sistema de audit logs por entidade.
+
 > **Fronteira de extração futura:** toda a lógica desta seção é independente do Next.js. Ao extrair para uma API separada, os `services/` se tornam os controllers/use-cases — basta envolvê-los em rotas do novo framework.
 
 ### 3.1 Instância Singleton do Prisma
