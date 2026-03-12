@@ -1,0 +1,7 @@
+{
+  "name": "nextjs-fullstack",
+  "description": "Guia completo de desenvolvimento full-stack com Next.js (App Router), TypeScript, Tailwind CSS, Prisma, TanStack Query, Zod e NextAuth.js. Use esta skill sempre que o usuário pedir para criar, editar ou planejar qualquer parte do projeto: componentes, páginas, Server Actions, services, Route Handlers, schemas de validação, autenticação, configuração de banco de dados ou estrutura de pastas.",
+  "author": {
+    "name": "TempestPH"
+  }
+}

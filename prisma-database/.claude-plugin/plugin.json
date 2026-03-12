@@ -1,0 +1,7 @@
+{
+  "name": "prisma-database",
+  "description": "Especialista em banco de dados relacional com Prisma ORM v7 e PostgreSQL: performance, audit logs e soft delete. Use SEMPRE que o usuário pedir para criar, modificar ou planejar schemas Prisma, models, migrations, índices, audit logs, soft delete, enums, relações entre tabelas ou otimização de queries.",
+  "author": {
+    "name": "TempestPH"
+  }
+}

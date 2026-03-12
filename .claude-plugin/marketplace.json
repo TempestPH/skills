@@ -1,0 +1,31 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "tempestph-skills",
+  "description": "Skills de desenvolvimento full-stack para projetos TempestPH — Next.js, Prisma, PostgreSQL",
+  "owner": {
+    "name": "TempestPH",
+    "email": "noreply@github.com"
+  },
+  "plugins": [
+    {
+      "name": "nextjs-fullstack",
+      "description": "Guia completo de desenvolvimento full-stack com Next.js (App Router), TypeScript, Tailwind CSS, Prisma, TanStack Query, Zod e NextAuth.js.",
+      "version": "1.0.0",
+      "author": {
+        "name": "TempestPH"
+      },
+      "source": "./nextjs-fullstack",
+      "category": "development"
+    },
+    {
+      "name": "prisma-database",
+      "description": "Especialista em banco de dados relacional com Prisma ORM v7 e PostgreSQL: performance, audit logs e soft delete.",
+      "version": "1.0.0",
+      "author": {
+        "name": "TempestPH"
+      },
+      "source": "./prisma-database",
+      "category": "development"
+    }
+  ]
+}
